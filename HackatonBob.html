@@ -1,0 +1,51 @@
+<head>
+  <title>HackatonBob</title>
+</head>
+
+<body>
+<center>
+  <span class="login">{{> loginButtons}}</span>
+</center>
+{{#if currentUser}}
+<header>
+
+<center>
+	
+  <h1>SurfCloud</h1>
+  
+
+  {{> form1}}
+
+</center>
+
+  		{{#each tasks}}
+   <ul><li><p class="right">Summary : {{summary}}</p>
+   	<p class="spawn">"{{adresse}}"</p><p>  [Latitude : {{latitude}}]  ,  [Longitude :{{longitude}}] <br> [Vitesse du vent :<span class="spawn2"> {{windSpeedrond}} km/h</span>]
+   </p> <br/>
+
+   <p class="spawn1">
+   	Vitesse du vent dans la semaine :</p>
+   	<tr>
+<td class="rond2"> {{windSpeedrond2}} km/h</td>
+<td class="rond3"> {{windSpeedrond3}} km/h</td>
+<td class="rond4"> {{windSpeedrond4}} km/h</td>
+<td class="rond5"> {{windSpeedrond5}} km/h</td>
+<td class="rond6"> {{windSpeedrond6}} km/h</td>
+<td class="rond7"> {{windSpeedrond7}} km/h</td>
+</tr>
+   		<button class="dataremove">Enlever</button></li></ul>
+        {{/each}}
+
+</header>
+{{/if}}
+</body>
+
+		<template name="form1">
+
+		<form method="POST">
+			<input id="test" type="text" name="adresse" placeholder="Cherchez une adresse ;D"/>
+			<br>
+			<input class="custom" type="submit" name="send" value="Envoyer" />
+		</form>
+
+		</template>

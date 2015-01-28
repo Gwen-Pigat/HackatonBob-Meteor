@@ -1,0 +1,156 @@
+body{
+	background-color: #EFEFCE;
+	color: black;
+	background: url(cloud1.jpg) center fixed no-repeat
+}
+
+td{
+	padding: 2.2%;
+	border: 3px #EFEFCE solid;
+	background-color: black;
+	color: #28C223;
+}
+
+td:hover{
+	border: 3px black solid;
+}
+
+h1{
+	padding: 1%;
+	width: 25%;
+	margin-bottom: 5%;
+	margin-top: 6%;
+	font-size: 45px;
+	border-bottom: 3px black solid;
+	border-top: 3px black solid;
+}
+
+.header{
+	background-color: #EFEFCE;
+}
+
+.message{
+	border: 5px white solid;
+	text-align: left;
+	font-size: 15px;
+	text-decoration: bold;
+	background-color: white;
+	color: black;
+	width: 25%;
+	margin-bottom: 5%;
+}
+
+.message:hover{
+	transition: 0.6s;
+	background-color: #EFEFCE;
+	color: black;
+}
+
+.envoyer{
+	width: 15%;
+	height: 40px;
+	border-radius: 5px;
+	border: 0px;
+}
+
+.spawn{
+	color: red;
+}
+
+.spawn1{
+	text-decoration: underline;
+	color: red;
+	text-shadow: 0 0 10px black;
+}
+
+.spawn2{
+	color: #28C223;
+}
+
+.login{
+	background-color: #EFEFCE;
+	font-size: 25px;
+	border-radius: 15px;
+	border: 3px black solid;
+	padding: 1%;
+	color: #EFEFCE;
+	text-decoration: none
+}
+
+.login a{
+	text-decoration: none;
+	color: #24334C;
+}
+
+.fond{
+	background-color: #EFEFCE;
+}
+
+.right{
+	text-align: center;
+	margin-bottom: 7%;
+	color:black;
+	border: 3px black solid;
+	color: #EFEFCE;
+	text-shadow: 0 0 1px black;
+	border-radius: 5px;
+	background-color: black;
+	width: auto;
+}
+
+ul{
+	background-color: #24334C;
+	margin-right: 16%;
+	margin-left: 18%;
+	opacity: 0.8;
+	font-size: 20px;
+	color: black;
+	text-shadow: 0 0 1px white;
+	border: 0px black solid;
+	box-shadow: 6px 6px 30px 10px black;
+	padding: 2%;
+	border-radius: 15px;
+	list-style-type: none
+}
+
+p{
+	text-shadow: 0 0  1px black;
+}
+
+ul:hover{
+	opacity: 0.9;
+	transition: 1.0s;
+	background: url(cloud.jpg) center fixed no-repeat;
+}
+
+.dataremove {
+	background-color: black;
+	border-radius: 5px;
+	border: 1px black solid;
+	color: #EFEFCE;
+	font-size: 20px;
+	padding: 2%;
+	vertical-align: center;
+	float: right;
+	margin-top: -20.5%;
+}
+
+.dataremove:hover {
+	opacity: 0.6;
+	transition: 0.4s;
+}
+
+.custom{
+	border-radius: 5px;
+	margin-bottom: 2%;
+	border:0px;
+	background-color: #28C223;
+	color: white;
+	padding: 1%;
+	width: 12%;
+}
+
+.custom:hover{
+	opacity: 0.6;
+	transition: 0.4s;
+}
