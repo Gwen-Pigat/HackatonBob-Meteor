@@ -1,13 +1,13 @@
-Hackaton Bob 
+<h1>Hackaton Bob</h1>
 
-Project realised with "Meteor.js".
+<p>Project realised with "Meteor.js".</p>
 
-Made by myself and a friend
-
-
-The application is fully available on this following link:
-http://surfcloud-gwenandchris.meteor.com/
+<p>Made by myself and a friend.</p>
 
 
+<p>The application is fully available on this following link:</p>
+<b>http://surfcloud-gwenandchris.meteor.com/</b>
 
-Give us some feedbacks ;)
+
+
+<p>Give us some feedbacks ;)</p>
